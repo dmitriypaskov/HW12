@@ -20,10 +20,10 @@ public class Main {
 
         Person person = new Person("Pashkov","Dmytro","Stanislavovich","15.06.1993");
         Person person1 = new Person("Pashkov Dmytro Stanislavovich");
-        System.out.println(person.fio());
-        System.out.println(person.fioShort());
-        System.out.println(person.age() + "years old");
-        System.out.println(person1.fio());
-        System.out.println(person1.fioShort());
+        System.out.println(person.getFullName());
+        System.out.println(person.getNameWithInitials());
+        System.out.println(person.getAge() + " y. o.");
+        System.out.println(person1.getFullName());
+        System.out.println(person1.getNameWithInitials());
     }
 }
